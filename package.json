@@ -6,9 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "publishConfig": {
-    "registry": "http://npm.home.web:4873/"
-  },
   "repository": {
     "type": "git",
     "url": "git://cfg.home.web/base/js/lethexa-bintree.git"

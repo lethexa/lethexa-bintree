@@ -82,6 +82,22 @@ describe('BinTree', function () {
         });
     });
 
+    describe('#unregisterItem()', function () {
+        it('should return zero items when item added and removed', function () {
+            var resultList = [];
+	    var item = new TestItem(4);
+            var tree = new bintree.BinTree(0, 10, 1);
+            tree.registerItem(item);
+            
+	    tree.unregisterItem(item);
+
+            tree.forEachInRange(0, 10, function(item) {
+	      resultList.push(item);
+	    });
+            assert.equal(resultList.length, 0);
+        });
+    });
+
 });
 
 
