@@ -1,0 +1,21 @@
+{
+  "name": "lethexa-bintree",
+  "description": "A binary tree implementation",
+  "main": "lib/bintree.js",
+  "authors": [
+    "Tim Leerhoff <tleerhof@web.de>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "binarytree"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
