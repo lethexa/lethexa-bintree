@@ -1,6 +1,4 @@
 var assert = require('assert');
-//var vecmat = require('../lib/vecmat.js');
-//var vecmat = require('../coverage/instrument/lib/vecmat.js');
 var bintree = require((process.env.APP_DIR_FOR_CODE_COVERAGE || '../lib/') + 'bintree.js');
 
 
