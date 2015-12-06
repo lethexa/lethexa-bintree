@@ -1,6 +1,6 @@
 {
   "name": "lethexa-bintree",
-  "version": "1.0.0", 
+  "version": "1.0.1", 
   "description": "A binary tree implementation",
   "main": "index.js",
   "scripts": {
